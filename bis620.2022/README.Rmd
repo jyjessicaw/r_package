@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# bis620.2022
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/jyjessicaw/BIS620/actions/workflows/R-CMD-chec                                                           k.yaml/badge.svg)](https://github.com/jyjessicaw/BIS620/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/jyjessicaw/BIS620/actions/workflows/lint.yaml/badge.svg)](https://github.com/jyjessicaw/BIS620/actions/workflows/lint.yaml)
+[![R-CMD-check](https://github.com/jyjessicaw/BIS620/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/jyjessicaw/BIS620/actions/workflows/test-coverage.yaml)
+<!-- badges: end -->
+
+The goal of bis620.2022 is to extract,analyze, and visualize accelerometry data from UKBiobank.You can find the detailed features and implementation from plot.R(visualize the acceleration on X,Y,Z),spectral.R(create spectral signal by performing fast fourier transformation). 
+
+## Installation
+
+You can install the development version of bis620.2022 from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("jyjessicaw/BIS620")
+```
+
+
+
